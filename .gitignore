@@ -6,6 +6,14 @@ cmake_install.cmake
 CMakeFiles/
 Makefile
 *.cmake
+!platforms/Misc/cmake/*.cmake
+!platforms/Windows/cmake-modules/*.cmake
+
+# Visual Studio files written by an in-source CMake configure
+/ALL_BUILD.vcxproj*
+/ZERO_CHECK.vcxproj*
+/carnifex-engine.sln
+/carnifex-engine.vcxproj*
 
 # Compiled binaries
 carnifex-engine
